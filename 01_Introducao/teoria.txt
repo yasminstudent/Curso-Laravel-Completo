@@ -1,0 +1,23 @@
+O que é Laravel?
+-> O Laravel é um framework PHP open source, criado por Taylor Otwell.
+
+O que é um Framework?
+-> Um conjunto de códigos genéricos capaz de auxiliar na solução de problemas e construção de sistemas.
+-> Uma caixa de ferramentas p/ um desenvolvedor
+
+Taylor estava utilizando o Code Igniter quando teve a idéia de criar o Laravel:
+"Eu não conseguia adicionar as funcionalidades que eu queria sem ter que manipular o código interno do framework"
+
+-> usou como base a infraestrutura .NET
+
+-> Junho de 2011: 1º versão do Laravel
+-> Maio de 2013: Laravel foi reescrito e passou a incorporar o Composer
+
+-> Atualmente o Laravel está na versão 9, com suporte p/ PHP >= 8
+
+A comunidade do Laravel...
+
+* Ama códigos visualmente bonitos
+* Preza por uma sintaxe expressiva (intuitiva) e elegante
+* Se esforça p/ retirar a "dor de todo projeto" (autenticação, roteamento, envio de emails, sessões, cache...)
+* Busca prover ferramentas poderosas necessárias para aplicações grandes e robustas

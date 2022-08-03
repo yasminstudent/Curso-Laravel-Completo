@@ -1,0 +1,9 @@
+Extensões do VSCode:
+* Dracula Official ou Tokyo Night
+* Rainbow Brackets
+* Color Highlight
+* Laravel Extension Pack (desabilitar EditorConfig, DotENV, Laravel Artisan)
+* Color Highlight
+
+Extensões do Chrome:
+* JSON Viewer
