@@ -1,0 +1,40 @@
+------------------------ Criando nosso Primeiro Projeto ------------------------
+1. Para instalar o projeto via composer:
+
+    composer create-project laravel/laravel example-app
+
+    esse comando:
+    * baixa/instala as dependências/bibliotecas 
+    * roda os comandos:
+        - @php artisan package:discover --ansi
+        - @php artisan vendor:publish --tag=laravel-assets --ansi --force
+        - @php artisan key:generate --ansi 
+
+OBS: quando se instala o laravel via curl, é necessário rodar esses comandos acima
+
+---------------------- Entendendo a Estrutura de Pastas 1 ----------------------
+* app
+    * console -> comandos p/ criar coisas pelo console
+    * exceptions -> exceções
+    * http -> (o laravel trabalha com vários tipos de requisições, http, sockets, graphql)
+    * models ->
+    * providers -> provedores de serviços
+* bootstrap -> inicia a aplicação e guarda caches do laravel
+* config -> configurações
+* database
+    * factories -> fábricas de dados (se usa com os seeders, por exemplo criar 100 usuários fakes)
+    * migrations -> cria a estrutura do banco
+    * seeders -> cria dados no banco (depois de rodar as migrations, por exemplo cria um usuário admin)
+* lang -> tradução dos idiomas
+
+---------------------- Entendendo a Estrutura de Pastas 2 ----------------------
+* public -> pasta visível ao usuário
+    * index.php -> faz os autoloads e importa o arquivo app.php da pasta bootstrap
+* resources -> views, js e css (recursos)
+* routes -> rotas
+* storage
+    * app -> arquivos que fazemos uploads
+    * framework -> sessões, cache de views, htmls, css, testes
+    * logs -> logs da aplicação
+* tests -> testes unitários
+* vendor -> conjunto das bibliotecas do laravel
