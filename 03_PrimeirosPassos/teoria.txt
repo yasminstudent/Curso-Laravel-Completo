@@ -38,3 +38,18 @@ OBS: quando se instala o laravel via curl, é necessário rodar esses comandos a
     * logs -> logs da aplicação
 * tests -> testes unitários
 * vendor -> conjunto das bibliotecas do laravel
+
+---------------------- Configurações de Ambiente ENV ----------------------
+.env.example -> para saber quais chaves são necessárias p/ o projeto
+
+APP_KEY -> chave única de identificação do projeto
+    quando tivermos uma session ela será incriptada com essa chave
+    e o laravel consegue incriptar e decriptar 
+    p/ saber se a session é de fato do app, não foi injetada de nenhuma forma pelo usuário
+
+    serve para cookies e entre outras coisas também
+
+APP_ENV -> em produção recebe o valor: production
+
+---------------------- Abstraindo a Estrutura do Framework ----------------------
+Se você tiver interesse de se aprofundar nesse assunto, essa série é uma ótima introdução a todos esses conceitos relacionados a arquitetura: https://herbertograca.com/2017/07/03/the-software-architecture-chronicles/
